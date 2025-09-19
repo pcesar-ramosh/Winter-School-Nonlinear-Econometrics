@@ -1,0 +1,2 @@
+model,AUC,Brier,LogScore
+Logit – FX Crisis (excl. defining components),0.7271317829457364,0.17475010770441546,0.5255439506055091
