@@ -3,7 +3,7 @@
 ' ==============================================================
 
 close @all
-cd "D:\Paulo Ramos\Nueva carpeta (2)\GitHub\Winter-School-Nonlinear-Econometrics\day02\Fiscal_Model"
+cd "C:\Users\CESAR\Documents\GitHub\Winter-School-Nonlinear-Econometrics\day02\Fiscal_Model"
 wfopen "modelo_fiscal.wf1"
 smpl @all
 
@@ -74,3 +74,5 @@ show n1 n2
 ' - “Threshold varying”: regresores con coeficientes que cambian por régimen.
 ' - “Non-varying”: coeficientes comunes a todos los regímenes.
 '===============================================================
+
+
