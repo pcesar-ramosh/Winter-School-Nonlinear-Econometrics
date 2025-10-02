@@ -75,4 +75,3 @@ show n1 n2
 ' - “Non-varying”: coeficientes comunes a todos los regímenes.
 '===============================================================
 
-
