@@ -1,0 +1,50 @@
+' Asigna nombres
+c.displayname Const.
+resid.displayname Desv. de ajuste
+t.displayname Periodo (m)
+
+x11.displayname Segmento A
+x12.displayname Segmento B
+x13.displayname Segmento C
+x14.displayname Uso final
+x15.displayname Activo D
+
+x16.displayname Crédito - Total
+x17.displayname Cartera - E1
+x18.displayname Cartera - E2
+x19.displayname Cartera - Activa
+
+x20.displayname Crédito - Moneda 1
+x21.displayname Incumplimiento
+x22.displayname Tasa de incumpl.
+x23.displayname Provisión cartera
+
+x24.displayname Crédito - Moneda 2
+x25.displayname Índice de precios
+x26.displayname Índice de actividad
+x27.displayname Crédito (real)
+
+x28.displayname Crédito/Actividad (%)
+x29.displayname Exigencia A
+x30.displayname Exigencia B
+x31.displayname Tasa P (M1)
+x32.displayname Tasa A (M1)
+
+x33.displayname Depósitos T1
+x34.displayname Depósitos T2
+x35.displayname Depósitos T3
+
+x36.displayname Cartera - E1 (alt)
+x37.displayname Cartera - E2 (alt)
+x38.displayname Cartera - Activa (alt)
+x39.displayname Cartera - Total
+x40.displayname Cartera - Mora
+
+x41.displayname Índice TC (real)
+x42.displayname Índice externo 1
+x43.displayname Índice externo 2
+
+x44.displayname Índice precios (base A)
+x45.displayname Crédito (real) v2
+x46.displayname Índice precios (base B)
+x47.displayname Depósitos (MN)
