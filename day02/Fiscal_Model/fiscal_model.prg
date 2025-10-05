@@ -3,7 +3,11 @@
 ' ==============================================================
 
 close @all
-cd "C:\Users\CESAR\Documents\GitHub\Winter-School-Nonlinear-Econometrics\day02\Fiscal_Model"
+
+%path = @runpath
+cd %path
+
+''''cd "   "
 wfopen "modelo_fiscal.wf1"
 smpl @all
 

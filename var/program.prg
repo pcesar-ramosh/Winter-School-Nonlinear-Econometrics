@@ -1,5 +1,6 @@
 close @all
-cd "D:\Paulo Ramos\Nueva carpeta (2)\GitHub\Winter-School-Nonlinear-Econometrics\var"
+%path = @runpath
+cd %path
 import "dataset.xlsx" range=Hoja1 colhead=1 na="#N/A" @freq M @id @date(time) @smpl @all
 
 delete time
@@ -58,7 +59,17 @@ next
 
 ' Estimacion de un modelo VAR con tasas anualizadas
 var var01.ls 1 2 g_igae g_ipc g_wti
+' Endogeno a lo mas exogeno 
+'(prod industrial - (Endongena)
+'inversion riego - 
+'tasa d einteres activa - 
+'tasa interes BCRP) (Exogeno)
+' 
 
+'exogeno a lo mas endogeno
+'tasa bcrp -> tasa activa -> inversion -> produccion  
+'endogeno a los mas exogeno
+'produccion <- inversion  <- tasa activa <- tasa bcrp
 freeze(lag_criteria) var01.laglen(8)
 
 freeze(raices) var01.arroots
@@ -86,4 +97,15 @@ freeze(descomp) var01.hdecomp g_igae
 
 ' Descomposición de varianza
 freeze(desc_varianza) var01.decomp(m) g_igae
+
+' Causalidad de Granger
+group series_granger g_igae g_ipc g_wti
+freeze(granger) series_granger.cause
+
+'Modelo VEC
+var var02.ec(c,1) 1 2 g_igae g_ipc g_wti
+
+' Test de Johansen
+freeze(coint_test) var02.coint(c, 1 2 )
+
 
