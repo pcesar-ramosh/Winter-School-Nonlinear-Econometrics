@@ -11,6 +11,6 @@ This repository provides code examples, datasets, and supporting materials in **
 - `r/` → Scripts and examples in R for econometric applications.  
 - `matlab/` → MATLAB codes for nonlinear econometric models.  
 - `data/` → Example datasets used in practice sessions.  
-- `docs/` → Additional readings, references, and slides.
+- `docs/` → Additional readings, references, and slides and more.
 
 ---
